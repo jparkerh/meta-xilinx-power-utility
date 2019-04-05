@@ -16,7 +16,7 @@ SRC_URI = "git://github.com/parker-xilinx/xilinx-linux-power-utility.git"
 S = "${WORKDIR}/git"
 
 do_compile() {
-        make
+        oe_runmake
 }
 
 do_install() {
